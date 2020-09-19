@@ -7,3 +7,46 @@
     padding-top: 70px;
     padding-bottom: 50px;
 }
+
+/*** Mix it up ***/
+.portfolio-filter-control{
+    padding-left: 0;
+    list-style: none;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.portfolio-filter-control li{
+    display: inline-block;
+    padding: 3px 8px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.portfolio-filter-control li:last-of-type{
+    margin-right: 0;
+}
+.portfolio-filter-control li:hover{
+    border-bottom: 5px solid #161616;
+    opacity: 0.8;
+}
+.portfolio-filter-control li.mixitup-control-active{
+    border-bottom: 5px solid #161616;
+}
+.project-filter-tag{
+    display: inline-block;
+    padding: 0 5px;
+    border: 1px solid #9b9b9b;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.project-filter-tag:last-of-type{
+    margin-right: 0;
+}
+.project-filter-tag:hover{
+    background-color: #e1e1e1;
+}
+.project-filter-tag.mixitup-control-active{
+    border-color: #161616;
+    background-color: #161616;
+    color: #fff;
+}

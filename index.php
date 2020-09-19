@@ -42,7 +42,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                    <h1 class="pagetitle__heading mb-0">Prototypes</h1>
+                    <h1 class="pagetitle__heading mb-0">
+                        <small>Aphoe | Full stack developer</small> <br>
+                        Prototypes
+                    </h1>
                 </div><!-- /.col-lg-12 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
@@ -54,8 +57,18 @@
     <section class="portfolio-grid">
         <div class="container">
             <div class="row">
+                <div class="col-12">
+                    <ul class="portfolio-filter-control">
+                        <li data-filter="all">All</li>
+                        <li data-filter=".project-php">PHP</li>
+                        <li data-filter=".project-cms">CMS</li>
+                        <li data-filter=".project-wiki">Wiki</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-row">
                 <!-- portfolio item -->
-                <div class="col-sm-6 col-md-6 col-lg-3" data-aos="fade-in">
+                <div class="col-sm-6 col-md-6 col-lg-3 mix project-php project-cms" data-aos="fade-in">
                     <div class="portfolio-item">
                         <div class="portfolio-item__img">
                             <img src="assets/images/portfolio/grav.jpg" alt="Grav">
@@ -70,13 +83,14 @@
                         <div class="portfolio-item__info">
                             <h4 class="portfolio-item__title"><a href="/grav" target="_blank">Grav</a></h4>
                             <div class="portfolio-item__cat">
-                                <a href="javascript:void(0)">PHP</a><a href="javascript:void(0)">CMS</a>
+                                <span class="project-filter-tag" data-filter=".project-php">PHP</span>
+                                <span class="project-filter-tag" data-filter=".project-cms">CMS</span>
                             </div><!-- /.portfolio-cat -->
                         </div><!-- /.portfolio-info -->
                     </div><!-- /.portfolio-item -->
                 </div><!-- /.col-lg-4 -->
                 <!-- portfolio item -->
-                <div class="col-sm-6 col-md-6 col-lg-3" data-aos="fade-in">
+                <div class="col-sm-6 col-md-6 col-lg-3 mix project-php project-wiki" data-aos="fade-in">
                     <div class="portfolio-item">
                         <div class="portfolio-item__img">
                             <img src="assets/images/portfolio/mediawiki.jpg" alt="Mediawiki">
@@ -91,7 +105,8 @@
                         <div class="portfolio-item__info">
                             <h4 class="portfolio-item__title"><a href="/mediawiki" target="_blank">MediaWiki</a></h4>
                             <div class="portfolio-item__cat">
-                                <a href="javascript:void(0)">PHP</a><a href="javascript:void(0)">Wiki</a>
+                                <span class="project-filter-tag" data-filter=".project-php">PHP</span>
+                                <span class="project-filter-tag" data-filter=".project-wiki">Wiki</span>
                             </div><!-- /.portfolio-cat -->
                         </div><!-- /.portfolio-info -->
                     </div><!-- /.portfolio-item -->
@@ -101,7 +116,7 @@
                 /*
                 ?>
                 <!-- portfolio item -->
-                <div class="col-sm-6 col-md-6 col-lg-3" data-aos="fade-in">
+                <div class="col-sm-6 col-md-6 col-lg-3 mix project-php" data-aos="fade-in">
                     <div class="portfolio-item">
                         <div class="portfolio-item__img">
                             <img src="assets/images/portfolio/grid/2.jpg" alt="portfolio img">
@@ -116,7 +131,7 @@
                         <div class="portfolio-item__info">
                             <h4 class="portfolio-item__title"><a href="#">Card Board Boxes</a></h4>
                             <div class="portfolio-item__cat">
-                                <a href="#">Print</a><a href="#">Packaging</a>
+                                <span class="project-filter-tag" data-filter=".project-php">PHP</span>
                             </div><!-- /.portfolio-cat -->
                         </div><!-- /.portfolio-info -->
                     </div><!-- /.portfolio-item -->
@@ -149,7 +164,19 @@
 
 <script src="assets/js/jquery-3.5.1.min.js"></script>
 <script src="assets/js/plugins.js"></script>
+<script src="assets/js/mixitup.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/custom.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YHRT5L4PX0"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-YHRT5L4PX0');
+</script>
 </body>
 
 </html>
