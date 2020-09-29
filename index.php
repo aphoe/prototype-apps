@@ -60,8 +60,9 @@
                 <div class="col-12">
                     <ul class="portfolio-filter-control">
                         <li data-filter="all">All</li>
-                        <li data-filter=".project-php">PHP</li>
                         <li data-filter=".project-cms">CMS</li>
+                        <li data-filter=".project-ecommerce">E-commerce</li>
+                        <li data-filter=".project-php">PHP</li>
                         <li data-filter=".project-wiki">Wiki</li>
                     </ul>
                 </div>
@@ -83,8 +84,30 @@
                         <div class="portfolio-item__info">
                             <h4 class="portfolio-item__title"><a href="/grav" target="_blank">Grav</a></h4>
                             <div class="portfolio-item__cat">
-                                <span class="project-filter-tag" data-filter=".project-php">PHP</span>
                                 <span class="project-filter-tag" data-filter=".project-cms">CMS</span>
+                                <span class="project-filter-tag" data-filter=".project-php">PHP</span>
+                            </div><!-- /.portfolio-cat -->
+                        </div><!-- /.portfolio-info -->
+                    </div><!-- /.portfolio-item -->
+                </div><!-- /.col-lg-4 -->
+                <!-- portfolio item -->
+                <div class="col-sm-6 col-md-6 col-lg-3 mix project-php project-ecommerce" data-aos="fade-in">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item__img">
+                            <img src="assets/images/portfolio/magento.jpg" alt="portfolio img">
+                            <div class="portfolio-item__hover">
+                                <div class="portfolio-item__hover__inner">
+                                    <a class="zoom__icon" href="/magento"  target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div><!-- /.portfolio-item__hover__inner -->
+                            </div><!-- /.portfolio-item__hover -->
+                        </div><!-- /.portfolio-item__img -->
+                        <div class="portfolio-item__info">
+                            <h4 class="portfolio-item__title"><a href="/magento" target="_blank">Magento</a></h4>
+                            <div class="portfolio-item__cat">
+                                <span class="project-filter-tag" data-filter=".project-ecommerce">E-Commerce</span>
+                                <span class="project-filter-tag" data-filter=".project-php">PHP</span>
                             </div><!-- /.portfolio-cat -->
                         </div><!-- /.portfolio-info -->
                     </div><!-- /.portfolio-item -->
@@ -107,6 +130,52 @@
                             <div class="portfolio-item__cat">
                                 <span class="project-filter-tag" data-filter=".project-php">PHP</span>
                                 <span class="project-filter-tag" data-filter=".project-wiki">Wiki</span>
+                            </div><!-- /.portfolio-cat -->
+                        </div><!-- /.portfolio-info -->
+                    </div><!-- /.portfolio-item -->
+                </div><!-- /.col-lg-4 -->
+
+                <!-- portfolio item -->
+                <div class="col-sm-6 col-md-6 col-lg-3 mix project-php project-ecommerce" data-aos="fade-in">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item__img">
+                            <img src="assets/images/portfolio/opencart.jpg" alt="portfolio img">
+                            <div class="portfolio-item__hover">
+                                <div class="portfolio-item__hover__inner">
+                                    <a class="zoom__icon" href="/opencart" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div><!-- /.portfolio-item__hover__inner -->
+                            </div><!-- /.portfolio-item__hover -->
+                        </div><!-- /.portfolio-item__img -->
+                        <div class="portfolio-item__info">
+                            <h4 class="portfolio-item__title"><a href="/opencart" target="_blank">OpenCart</a></h4>
+                            <div class="portfolio-item__cat">
+                                <span class="project-filter-tag" data-filter=".project-ecommerce">E-commerce</span>
+                                <span class="project-filter-tag" data-filter=".project-php">PHP</span>
+                            </div><!-- /.portfolio-cat -->
+                        </div><!-- /.portfolio-info -->
+                    </div><!-- /.portfolio-item -->
+                </div><!-- /.col-lg-4 -->
+
+                <!-- portfolio item -->
+                <div class="col-sm-6 col-md-6 col-lg-3 mix project-php project-ecommerce" data-aos="fade-in">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item__img">
+                            <img src="assets/images/portfolio/prestashop.jpg" alt="portfolio img">
+                            <div class="portfolio-item__hover">
+                                <div class="portfolio-item__hover__inner">
+                                    <a class="zoom__icon" href="/prestashop" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div><!-- /.portfolio-item__hover__inner -->
+                            </div><!-- /.portfolio-item__hover -->
+                        </div><!-- /.portfolio-item__img -->
+                        <div class="portfolio-item__info">
+                            <h4 class="portfolio-item__title"><a href="/prestashop" target="_blank">PrestaShop</a></h4>
+                            <div class="portfolio-item__cat">
+                                <span class="project-filter-tag" data-filter=".project-ecommerce">E-commerce</span>
+                                <span class="project-filter-tag" data-filter=".project-php">PHP</span>
                             </div><!-- /.portfolio-cat -->
                         </div><!-- /.portfolio-info -->
                     </div><!-- /.portfolio-item -->
